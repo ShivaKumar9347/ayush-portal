@@ -1,0 +1,97 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero Section Styles */
+#home {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+/* User Registration Styles */
+#register {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Showcase Opportunities Styles */
+#opportunities {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.opportunity {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.opportunity h3 {
+    margin-bottom: 10px;
+}
+
+.opportunity a {
+    color: #333;
+    text-decoration: none;
+    background-color: #f0f0f0;
+    padding: 5px;
+    display: inline-block;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup AYUSH Portal</title>
+    <link rel="stylesheet" href="hack.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#startups">Startups</a></li>
+        <li><a href="#investors">Investors</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#login">Login</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="home">
+    <h1>Welcome to the Startup AYUSH Portal</h1>
+    <p>Your one-stop platform for AYUSH startups and collaboration.</p>
+</section>
+
+<!-- User Registration -->
+<section id="register">
+    <h2>Register for an Account</h2>
+    <form action="/register" method="post">
+        <!-- Registration form fields -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Register</button>
+    </form>
+</section>
+
+<!-- Showcase Opportunities -->
+<section id="opportunities">
+    <h2>Featured Opportunities</h2>
+    <!-- Display opportunities dynamically from the backend -->
+    <div class="opportunity">
+        <h3>Funding Opportunity</h3>
+        <p>Description of the funding opportunity...</p>
+        <a href="#">Apply Now</a>
+    </div>
+
+    <div class="opportunity">
+        <h3>Mentorship Program</h3>
+        <p>Description of the mentorship program...</p>
+        <a href="#">Apply Now</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2024 Startup AYUSH Portal. All rights reserved.</p>
+</footer>
+
+<script src="hack.js"></script>
+</body>
+</html>
